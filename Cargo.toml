@@ -56,4 +56,5 @@ nxb-build = { path = "crates/nxb-build" }
 opt-level = 1
 
 [profile.release]
+lto = "fat"
 debug = "line-tables-only"
